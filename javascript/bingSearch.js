@@ -3,9 +3,7 @@ window.onload = (function (){
     //triple quiz "form=ML28X8" inside the url
     //id button (<input type="button">) to start the quiz: rqStartQuiz
     if(document.getElementById("rqStartQuiz") != null){
-
         setTimeout(tripleQuiz, 2000);
-
     }else{
         //multiple quiz
         if(document.getElementById("ListOfQuestionAndAnswerPanes") != null){
