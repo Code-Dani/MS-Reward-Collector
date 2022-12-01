@@ -26,5 +26,5 @@
       "matches":["https://www.bing.com/*FORM=ML12JG*","https://www.bing.com/*form=ML12JG*","https://www.bing.com/*form=ML151V*","https://www.bing.com/*FORM=ML151V*"],
       "js":["javascript/focusPage/quiz.js"]
     }
-]
+  ]
 }
