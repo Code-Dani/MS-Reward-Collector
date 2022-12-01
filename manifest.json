@@ -11,5 +11,7 @@
   },
   "content_scripts":[{
     "matches":["https://rewards.bing.com/*"],
-    "js": ["javascript/content.js"]}]
+    "js": ["javascript/content.js"]},
+  {"matches":["https://www.bing.com/*"],
+    "js": ["javascript/bingSearch.js"]}]
 }

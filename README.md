@@ -1,1 +1,2 @@
-# MS-Reward-Collector
+# MS-rewards-collector
+Automatically collects daily rewards
