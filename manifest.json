@@ -9,11 +9,18 @@
     "48": "icons/nasapod48x48.png",
     "128": "icons/nasapod128x128.png"
   },
-  "content_scripts":[{
-    "matches":["https://rewards.bing.com/*"],
-    "js": ["javascript/content.js"]},
-  {
-    "matches":["https://www.bing.com/*form=ML28X*"],
-    "js": ["javascript/focusPage/instaClose.js"]
-  }]
+  "content_scripts":[
+    {
+      "matches":["https://rewards.bing.com/*"],
+      "js": ["javascript/mainPage.js"]
+    },
+    {
+      "matches":["https://www.bing.com/*form=ML28X*"],
+      "js": ["javascript/focusPage/instaClose.js"]
+    },
+    {
+      "matches":["https://www.bing.com/*form=ML17QA*"],
+      "js":["javascript/focusPage/survey.js"]
+    }
+]
 }

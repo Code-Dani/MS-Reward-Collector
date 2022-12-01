@@ -6,15 +6,15 @@ const playItem = '<span role="presentation">'+
 
 menuContainer.innerHTML += playItem;
 
-var Observer = new MutationObserver(observate).observe(document.getElementsByClassName('ng-scope ng-isolate-scope mobileViewMode')[0],{
+var Observer = new MutationObserver(observate).observe(document.getElementsByClassName('m-card-group')[0].getElementsByClassName('ng-scope ng-isolate-scope c-card ')[0],{
     childList: true,
     subtree: true
 });
 
-//commit
-
 function observate(){
+    console.log("I'm observing");
     if(document.getElementsByClassName('m-card-group')[0].getElementsByClassName('ng-scope ng-isolate-scope c-card ').length == 3){
+        console.log("Entered IF");
         //enters if the 3 daily challenges are loaded
         document.getElementById("reward_pivot_collect").onclick = (function (){
             document.getElementsByClassName('m-card-group')[0].getElementsByClassName('ng-scope ng-isolate-scope c-card ')[0].getElementsByTagName('a')[0].click();
