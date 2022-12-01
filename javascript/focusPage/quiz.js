@@ -22,18 +22,18 @@ setTimeout(function(){
         console.log(elements);
         if(elements != null){
             for(var i = 0; i<5; i++){
-                if(elements[i].getElementsByClassName('b_hide') != null){
-                    elements[i].click();
-                    console.log('premuto:' + i);
+                if(document.getElementsByClassName('rqECredits')[0].innerHTML == document.getElementsByClassName('rqMCredits')[0].innerHTML){
+                    //enters only if the quiz is already done: if current_amount_points = total_points_obtainable
+                    window.close();
+                    //break;  //used to break out of the loop
+                }else{
+                    //if equal to null -> means that the element its been clicked, otherwise its not.
+                    if(elements[i].getElementsByClassName('b_hide') != null){
+                        elements[i].click();
+                        console.log('premuto:' + i);
+                    }
                 }
-                //else its already been clicked
             }
         }
     }
-
-    //check if the prices are redeemed and closes the window
-    if(document.getElementsByClassName('cico prmoImage') != null){
-        window.close();
-    }
-
-},500);
+},2000);

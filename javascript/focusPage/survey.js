@@ -4,9 +4,8 @@
 */
 console.log('Survey page recognized');
 setTimeout(function(){
-    console.log('called');
     if(document.getElementById('btoption0')!=null){
         document.getElementById('btoption0').click();
-        this.window.close();
+        setTimeout(function(){window.close();},1500);
     }
 },500);
