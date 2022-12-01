@@ -6,6 +6,6 @@ console.log('Survey page recognized');
 setTimeout(function(){
     if(document.getElementById('btoption0')!=null){
         document.getElementById('btoption0').click();
-        setTimeout(function(){window.close();},1500);
+        setTimeout(function(){window.close();},1000);
     }
 },500);
