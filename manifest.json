@@ -21,6 +21,10 @@
     {
       "matches":["https://www.bing.com/*form=ML17QA*"],
       "js":["javascript/focusPage/survey.js"]
+    },
+    {
+      "matches":["https://www.bing.com/*FORM=ML12JG*","https://www.bing.com/*form=ML12JG*"],
+      "js":["javascript/focusPage/quiz.js"]
     }
 ]
 }

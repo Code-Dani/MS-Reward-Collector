@@ -9,4 +9,4 @@ setTimeout(function(){
         document.getElementById('btoption0').click();
         this.window.close();
     }
-},1000);
+},500);
