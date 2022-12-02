@@ -19,7 +19,7 @@
       "js": ["javascript/focusPage/instaClose.js"]
     },
     {
-      "matches":["https://www.bing.com/*form=ML17QA*"],
+      "matches":["https://www.bing.com/*form=ML17QA*","https://www.bing.com/*form=ML17QB*"],
       "js":["javascript/focusPage/survey.js"]
     },
     {

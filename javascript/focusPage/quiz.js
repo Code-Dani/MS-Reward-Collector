@@ -9,17 +9,17 @@ setTimeout(function(){
     const startButton = document.getElementById('rqStartQuiz');
     if(startButton != null){
         startButton.click();
-        for(var i = 0; i<3; i++){
+        var elements = document.getElementsByClassName('b_cards bt_lstcl_card btcc btcNoImg')[0].click();
+        /*for(var i = 0; i<3; i++){
             var elements = document.getElementsByClassName('b_cards bt_lstcl_card btcc btcNoImg');
             for(var j = 0; j<5; j++){
                 elements[i].click();
                 console.log('premuto:' + j);
             }
-        }
+        }*/
     }else{
         //its possible that the start button was already pressed and the quiz its active, so we check for the clickable survey items.
         var elements = document.getElementsByClassName('b_cards bt_lstcl_card btcc btcNoImg');
-        console.log(elements);
         if(elements != null){
             for(var i = 0; i<5; i++){
                 if(document.getElementsByClassName('rqECredits')[0].innerHTML == document.getElementsByClassName('rqMCredits')[0].innerHTML){

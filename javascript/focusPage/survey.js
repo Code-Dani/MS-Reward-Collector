@@ -7,7 +7,11 @@ window.onload = function(){
     setTimeout(function(){
         if(document.getElementById('btoption0')!=null){
             document.getElementById('btoption0').click();
-            setTimeout(function(){window.close();},1000);
         }
     },500);
+
+    //closes the window after the button has been pressed
+    if(window.location.href.toString().includes("form=ML17QB")){
+        window.close();
+    }
 }
