@@ -3,9 +3,11 @@
     In this extension we'll just care to press the first option for every survey.
 */
 console.log('Survey page recognized');
-setTimeout(function(){
-    if(document.getElementById('btoption0')!=null){
-        document.getElementById('btoption0').click();
-        setTimeout(function(){window.close();},1000);
-    }
-},500);
+window.onload = function(){
+    setTimeout(function(){
+        if(document.getElementById('btoption0')!=null){
+            document.getElementById('btoption0').click();
+            setTimeout(function(){window.close();},1000);
+        }
+    },500);
+}
