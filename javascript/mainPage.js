@@ -6,7 +6,12 @@ window.onload = function(){
                         '<a role="tab" ng-href="/levels"    id="reward_pivot_collect" target="_self" style="background-color:#7db700;" >'
                             +'<span class="ng-binding" style="color:white;" >Collect points</span>'
                         +'</a></span>';
+    const doSearches = '<span role="presentation" style="padding-left:10px;">'+
+                            '<a role="tab" ng-href="/levels"    id="reward_pivot_searches" target="_self" style="background-color:#cd00cd;" >'
+                                +'<span class="ng-binding" style="color:white;" >Do searches</span>'
+                            +'</a></span>';
     menuContainer.innerHTML += playItem;
+    menuContainer.innerHTML += doSearches;
 
     
     //Adding onclick event to the custom button
@@ -19,6 +24,12 @@ window.onload = function(){
             document.getElementsByClassName('m-card-group')[0].getElementsByClassName('ng-scope ng-isolate-scope c-card ')[1].getElementsByTagName('a')[0].click();
             document.getElementsByClassName('m-card-group')[0].getElementsByClassName('ng-scope ng-isolate-scope c-card ')[2].getElementsByTagName('a')[0].click();
         }
+    });
+
+    //Adding onclick event to the custom button
+    document.getElementById("reward_pivot_searches").onclick = (function (){
+        console.log('entro');
+        window.open('https://www.bing.com/search?q=cwapchwjauhd1928745y6dwadaw231')
     });
 }
 

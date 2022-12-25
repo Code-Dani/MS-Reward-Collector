@@ -15,7 +15,7 @@
       "js": ["javascript/mainPage.js"]
     },
     {
-      "matches":["https://www.bing.com/*form=ML28X*","https://www.bing.com/*form=ML28Y*"],
+      "matches":["https://www.bing.com/*form=ML28X*","https://www.bing.com/*form=ML28Y*","https://www.bing.com/*form=ML28ZK*","https://www.bing.com/*form=ML28ZT*","https://www.bing.com/*form=ML28*"],
       "js": ["javascript/focusPage/instaClose.js"]
     },
     {
@@ -25,6 +25,10 @@
     {
       "matches":["https://www.bing.com/*FORM=ML12JG*","https://www.bing.com/*form=ML12JG*","https://www.bing.com/*form=ML151V*","https://www.bing.com/*FORM=ML151V*"],
       "js":["javascript/focusPage/quiz.js"]
+    },
+    {
+      "matches":["https://www.bing.com/*cwapchwjauhd1928745y6dwadaw231*"],
+      "js":["javascript/focusPage/doSearches.js"]
     }
   ]
 }
