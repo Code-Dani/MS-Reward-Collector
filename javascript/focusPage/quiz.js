@@ -9,6 +9,7 @@ setTimeout(function(){
     const startButton = document.getElementById('rqStartQuiz');
     if(startButton != null){
         startButton.click();
+        //I think its possible to remove the for loop and make it just press a single item, since it will refresh anyway and go in the "button null" section
         for(var i = 0; i<3; i++){
             var elements = document.getElementsByClassName('b_cards bt_lstcl_card btcc btcNoImg');
             for(var j = 0; j<5; j++){
@@ -24,6 +25,7 @@ setTimeout(function(){
             for(var i = 0; i<5; i++){
                 if(document.getElementsByClassName('rqECredits')[0].innerHTML == document.getElementsByClassName('rqMCredits')[0].innerHTML){
                     //enters only if the quiz is already done: if current_amount_points = total_points_obtainable
+                    console.log("Closing page");
                     window.close();
                     //break;  //used to break out of the loop
                 }else{

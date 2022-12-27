@@ -11,7 +11,8 @@ window.onload = (function(){
         sessionStorage.setItem('counter', 1);
     }
 
-    if(counter >= 30){
+    //added 10 more than needed to be sure
+    if(counter >= 40){
         window.close();
     }
 

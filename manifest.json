@@ -15,7 +15,7 @@
       "js": ["javascript/mainPage.js"]
     },
     {
-      "matches":["https://www.bing.com/*form=ML28X*","https://www.bing.com/*form=ML28Y*","https://www.bing.com/*form=ML28ZK*","https://www.bing.com/*form=ML28ZT*","https://www.bing.com/*form=ML28*"],
+      "matches":["https://www.bing.com/*form=ML28X*","https://www.bing.com/*form=ML28Y*","https://www.bing.com/*form=ML28ZK*","https://www.bing.com/*form=ML28ZT*","https://www.bing.com/*form=ML28*","https://www.bing.com/*form=ML29*"],
       "js": ["javascript/focusPage/instaClose.js"]
     },
     {
