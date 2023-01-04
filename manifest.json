@@ -15,15 +15,15 @@
       "js": ["javascript/mainPage.js"]
     },
     {
-      "matches":["https://www.bing.com/*form=ML28X*","https://www.bing.com/*form=ML28Y*","https://www.bing.com/*form=ML28ZK*","https://www.bing.com/*form=ML28ZT*","https://www.bing.com/*form=ML28*","https://www.bing.com/*form=ML29*"],
+      "matches":["https://www.bing.com/*form=ML28*","https://www.bing.com/*form=ML29*","https://www.msn.com/*form=ML29*"],
       "js": ["javascript/focusPage/instaClose.js"]
     },
-    {
-      "matches":["https://www.bing.com/*form=ML17QA*","https://www.bing.com/*form=ML17QB*"],
+    { 
+      "matches":["https://www.bing.com/*form=ML17*"],
       "js":["javascript/focusPage/survey.js"]
     },
     {
-      "matches":["https://www.bing.com/*FORM=ML12JG*","https://www.bing.com/*form=ML12JG*","https://www.bing.com/*form=ML151V*","https://www.bing.com/*FORM=ML151V*"],
+      "matches":["https://www.bing.com/*form=ML12*","https://www.bing.com/*form=ML15*"],
       "js":["javascript/focusPage/quiz.js"]
     },
     {
