@@ -28,6 +28,10 @@ This extension does **not** access your personal data, its just a script that au
     
     ![Untitled 1](https://user-images.githubusercontent.com/72025325/210790141-d9b697a7-569a-4c37-a799-552b4a77b396.png)
     
-6. Select the folder that you unzipped in the previous steps and you’re done
+6. Select the folder that you unzipped in the previous steps and you’re done.
 
+If you have done everything correctly (at page loaded) you should have these two buttons:
 
+![buttons](https://user-images.githubusercontent.com/72025325/211198407-b3a0e5ec-7fa3-4b31-8e76-3f93ccdd7885.png)
+
+Keep in mind that for the correct use of the extension you'll need to enable popups on that page if required by the browser.
