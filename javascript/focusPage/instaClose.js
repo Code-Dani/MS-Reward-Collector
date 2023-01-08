@@ -3,5 +3,7 @@
 */
 console.log('Insta-close page recognized');
 window.onload = (function(){
-    this.window.close();
+    setTimeout(function(){
+        this.window.close();
+    },1000);
 })
