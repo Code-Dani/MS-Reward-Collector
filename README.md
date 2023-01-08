@@ -35,3 +35,4 @@ If you have done everything correctly (at page loaded) you should have these two
 ![buttons](https://user-images.githubusercontent.com/72025325/211198407-b3a0e5ec-7fa3-4b31-8e76-3f93ccdd7885.png)
 
 Keep in mind that for the correct use of the extension you'll need to enable popups on that page if required by the browser.
+Everything is tested in the Italian page of microsoft rewards.
