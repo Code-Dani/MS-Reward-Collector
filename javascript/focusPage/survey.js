@@ -11,5 +11,5 @@ window.onload = function(){
     },1000);
     setTimeout(function(){
         window.close();
-    },1000);
+    },2000);
 }
