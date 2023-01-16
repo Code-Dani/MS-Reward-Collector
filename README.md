@@ -36,4 +36,5 @@ If you have done everything correctly (at page loaded) you should have these two
 
 Keep in mind that for the correct use of the extension you'll need to enable popups on that page if required by the browser.
 ![image](https://user-images.githubusercontent.com/72025325/212749210-d24326c5-1c76-4351-82da-80e1c3c49127.png)
+
 Everything is tested in the Italian page of microsoft rewards.
