@@ -12,7 +12,11 @@
       "js": ["javascript/mainPage.js"]
     },
     {
-      "matches":["https://www.bing.com/*form=ML28*","https://www.bing.com/*FORM=ML28*","https://www.bing.com/*form=ML29*","https://www.bing.com/*FORM=ML29*","https://www.msn.com/*form=ML29*","https://www.msn.com/*FORM=ML29*"],
+      "matches":["https://www.bing.com/*form=ML28*",
+        "https://www.bing.com/*FORM=ML28*", "https://www.bing.com/*form=ML28*",
+        "https://www.bing.com/*form=ML29*", "https://www.bing.com/*FORM=ML29*",
+        "https://www.msn.com/*form=ML29*", "https://www.msn.com/*FORM=ML29*",
+        "https://www.bing.com/*FORM=ML2AJ*","https://www.bing.com/*form=ML2AJ*"],
       "js": ["javascript/focusPage/instaClose.js"]
     },
     { 
@@ -20,7 +24,8 @@
       "js":["javascript/focusPage/survey.js"]
     },
     {
-      "matches":["https://www.bing.com/*form=ML12*","https://www.bing.com/*FORM=ML12*","https://www.bing.com/*form=ML15*","https://www.bing.com/*FORM=ML15*"],
+      "matches":["https://www.bing.com/*form=ML12*","https://www.bing.com/*FORM=ML12*",
+        "https://www.bing.com/*form=ML15*","https://www.bing.com/*FORM=ML15*"],
       "js":["javascript/focusPage/quiz.js"]
     },
     {
