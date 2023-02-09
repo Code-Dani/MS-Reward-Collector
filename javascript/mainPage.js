@@ -20,12 +20,12 @@ const doSearches = '<span role="presentation" style="padding-left:10px;">'+
     +'<span class="ng-binding" style="color:white;" >Do searches</span>'
     +'</a></span>';
 
-var taskDoneMessage = false;
+let taskDoneMessage = false;
 
 window.onload = function(){
 
     //Creating custom button for the extension
-    var menuContainer = document.getElementsByClassName('c-pivot pull-left')[0]; //grabbed column div for the play button
+    const menuContainer = document.getElementsByClassName('c-pivot pull-left')[0]; //grabbed column div for the play button
     menuContainer.innerHTML += playItem;
     menuContainer.innerHTML += doSearches;
 
@@ -42,6 +42,7 @@ window.onload = function(){
 
     //Adding onclick event to the custom button
     document.getElementById("reward_pivot_searches").onclick = (function (){
+        //random string
         window.open('https://www.bing.com/search?q=cwapchwjauhd1928745y6dwadaw231')
     });
 }
@@ -55,7 +56,7 @@ function doDailyChallenges(items){
     console.log("dailyActivities: NUMBER OF ITEMS: " + items.length);
 
     for(let i=0; i<items.length; i++){
-        if(items[i].getElementsByClassName("mee-icon mee-icon-SkypeCircleCheck").length == 0){
+        if(items[i].getElementsByClassName("mee-icon mee-icon-SkypeCircleCheck").length === 0){
             items[i].getElementsByTagName('a')[0].click();
         }else{
             taskDoneMessage = true;
@@ -78,7 +79,7 @@ function doMoreActivities(container){
         console.log("moreActivities: NUMBER OF ITEMS="+numberOfItems);
         for(var i=0; i<numberOfItems;i++){  //cycle through all items
             var id = container.children[i].getElementsByClassName("text-align-center rewards-card-container")[0].getAttribute("data-bi-id")
-            if(id.includes(moreActivitiesCode) && (container.children[i].getElementsByClassName("mee-icon mee-icon-SkypeCircleCheck").length == 0)){
+            if(id.includes(moreActivitiesCode) && (container.children[i].getElementsByClassName("mee-icon mee-icon-SkypeCircleCheck").length === 0)){
                 //It means that it's a bonus activity that can be done, otherwise it's just an AD
                 taskDoneMessage = false;
                 console.log("moreActivities: OPENING NUMBER="+i);
