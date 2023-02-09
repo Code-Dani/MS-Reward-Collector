@@ -13,7 +13,7 @@ Requirements:
 1. Browser: Chrome, Edge.
 2. Search engine: Bing.
 
-This extension does **not** access your personal data, its just a script that automates certain challenges.
+This extension does **not** access your personal data, it's just a script that automates certain challenges.
 
 ### How to install:
 
@@ -28,7 +28,7 @@ This extension does **not** access your personal data, its just a script that au
     
     ![Untitled 1](https://user-images.githubusercontent.com/72025325/210790141-d9b697a7-569a-4c37-a799-552b4a77b396.png)
     
-6. Select the folder that you unzipped in the previous steps and you’re done.
+6. Select the folder that you unzipped in the previous steps, and you’re done.
 
 If you have done everything correctly (at page loaded) you should have these two buttons:
 
