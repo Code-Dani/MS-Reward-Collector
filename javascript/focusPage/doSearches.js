@@ -17,10 +17,10 @@ window.onload = (function(){
     }
 
     console.log(counter);
-    var queryBar = document.getElementById('sb_form_q');
+    let queryBar = document.getElementById('sb_form_q');
     console.log(queryBar);
     queryBar.value = queryBar.value + 'd';
-    var submit = document.getElementById('sb_form_go');
+    let submit = document.getElementById('sb_form_go');
     console.log(submit);
     submit.click();
 
