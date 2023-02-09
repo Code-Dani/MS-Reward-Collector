@@ -10,13 +10,13 @@ const moreActivitiesCode = "moreactivities_offer";
 
 //Button Collect Points
 const playItem = '<span role="presentation">'+
-    '<a role="tab" ng-href="/levels"    id="reward_pivot_collect" target="_self" style="background-color:#7db700;" >'
+    '<a role="tab" id="reward_pivot_collect" target="_self" style="background-color:#7db700;" >'
     +'<span class="ng-binding" style="color:white;" >Collect points</span>'
     +'</a></span>';
 
 //Button Do Searches
 const doSearches = '<span role="presentation" style="padding-left:10px;">'+
-    '<a role="tab" ng-href="/levels"    id="reward_pivot_searches" target="_self" style="background-color:#cd00cd;" >'
+    '<a role="tab" id="reward_pivot_searches" target="_self" style="background-color:#cd00cd;" >'
     +'<span class="ng-binding" style="color:white;" >Do searches</span>'
     +'</a></span>';
 
@@ -77,8 +77,8 @@ function doMoreActivities(container){
         console.log("moreActivities: ENTERED MORE ACTIVITIES");
         const numberOfItems = container.childElementCount; //usually 12
         console.log("moreActivities: NUMBER OF ITEMS="+numberOfItems);
-        for(var i=0; i<numberOfItems;i++){  //cycle through all items
-            var id = container.children[i].getElementsByClassName("text-align-center rewards-card-container")[0].getAttribute("data-bi-id")
+        for(let i=0; i<numberOfItems;i++){  //cycle through all items
+            let id = container.children[i].getElementsByClassName("text-align-center rewards-card-container")[0].getAttribute("data-bi-id")
             if(id.includes(moreActivitiesCode) && (container.children[i].getElementsByClassName("mee-icon mee-icon-SkypeCircleCheck").length === 0)){
                 //It means that it's a bonus activity that can be done, otherwise it's just an AD
                 taskDoneMessage = false;
