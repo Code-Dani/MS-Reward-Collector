@@ -16,7 +16,8 @@
         "https://www.bing.com/*FORM=ML28*", "https://www.bing.com/*form=ML28*",
         "https://www.bing.com/*form=ML29*", "https://www.bing.com/*FORM=ML29*",
         "https://www.msn.com/*form=ML29*", "https://www.msn.com/*FORM=ML29*",
-        "https://www.bing.com/*FORM=ML2AJ*","https://www.bing.com/*form=ML2AJ*"],
+        "https://www.bing.com/*FORM=ML2AJ*","https://www.bing.com/*form=ML2AJ*", 
+        "https://www.bing.com/*form=ML2A*","https://www.bing.com/*FORM=ML2A*"],
       "js": ["javascript/focusPage/instaClose.js"]
     },
     { 
