@@ -1,5 +1,5 @@
 /*
-    It query 30 times bing browser to automatically do the 90 points given for searches
+    It queries 30 times bing browser to automatically do the 90 points given for searches
 */
 console.log('doSearches page');
 window.onload = (function(){
