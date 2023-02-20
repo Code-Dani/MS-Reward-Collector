@@ -6,7 +6,7 @@ window.onload = function() {
 }
 
 /**
- * Used to determinate it's a 4-item quiz or a 8-item quiz
+ * Used to determinate it's a 4-item quiz, a 8-item quiz or a 2-item quiz
  */
 function checkQuizAvailable(){
     if(document.getElementById("QuizContainerWrapper") != null){
