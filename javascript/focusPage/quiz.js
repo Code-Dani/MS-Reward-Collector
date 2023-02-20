@@ -17,6 +17,7 @@ function checkQuizAvailable(){
 
         //const earnedCredits = document.getElementsByClassName('rqECredits')[0].innerHTML;
         //const totalCredits = document.getElementsByClassName('rqMCredits')[0].innerHTML;
+        //TODO("Work in progress, needs to be checked if @greenChecklogo can be used for all of the 3 quiz")
         const greenCheckLogo = document.getElementsByClassName('cico rqSumryLogo'); //used to check if the quiz is completed
 
         if (greenCheckLogo.length > 0) {
