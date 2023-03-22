@@ -27,7 +27,7 @@ function checkQuizAvailable(){
         if(_8itemQuiz.length > 0)
             do8QuizActivity(_8itemQuiz);
         if(_4itemQuiz.length > 0)
-            do4QuizActivity(_4itemQuiz);
+            do4QuizActivity();
         if(_2itemQuiz.length > 0)
             do2QuizActivity(_2itemQuiz[0]);
     }
@@ -45,12 +45,11 @@ function do2QuizActivity(elements){
 /**
  * Automatically does the 4item quiz
  * @since 15/02/2023
- * @param elements Array of element to cycle through
  */
-function do4QuizActivity(elements){
-    for(let i=0; i<elements.length-1; i++){
-        console.log(elements[i]);
-        elements[i].children[0].children[0].click();
+function do4QuizActivity(){
+    for(let i=0; i<4; i++){
+        let id = 'rqAnswerOption'.concat(i);
+        document.getElementById(id).click();
     }
 }
 
