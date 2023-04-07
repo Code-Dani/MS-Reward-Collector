@@ -45,6 +45,10 @@ window.onload = function(){
         //random string
         window.open('https://www.bing.com/search?q=cwapchwjauhd1928745y6dwadaw231')
     });
+
+    document.getElementById("reward_pivot_searches").click()
+    document.getElementById("reward_pivot_collect").click()
+
 }
 
 /**
