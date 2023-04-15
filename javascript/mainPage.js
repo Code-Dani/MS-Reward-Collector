@@ -92,7 +92,6 @@ function doMoreActivities(container){
         }
         if(taskDoneMessage){
             alert("All the daily task have been done for today");
-            window.close()
         }
     }
 }
