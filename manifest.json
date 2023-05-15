@@ -1,6 +1,6 @@
 {
   "name": "Microsoft Rewards Collector",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "manifest_version": 3,
   "description": "An extension to automatically collect MS Reward points. This is a user-made extension and its NOT made by Microsoft",
   "icons": {
