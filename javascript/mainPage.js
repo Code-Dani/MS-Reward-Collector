@@ -14,12 +14,6 @@ const playItem = '<span role="presentation">'+
     +'<span class="ng-binding" style="color:white;" >Collect points</span>'
     +'</a></span>';
 
-//Button Do Searches
-const doSearches = '<span role="presentation" style="padding-left:10px;">'+
-    '<a role="tab" id="reward_pivot_searches" target="_self" style="background-color:#cd00cd;" >'
-    +'<span class="ng-binding" style="color:white;" >Do searches</span>'
-    +'</a></span>';
-
 let taskDoneMessage = false;
 
 window.onload = function(){
@@ -27,7 +21,6 @@ window.onload = function(){
     //Creating custom button for the extension
     const menuContainer = document.getElementsByClassName('c-pivot pull-left')[0]; //grabbed column div for the play button
     menuContainer.innerHTML += playItem;
-    menuContainer.innerHTML += doSearches;
 
     //Adding onclick event to the custom button
     document.getElementById("reward_pivot_collect").onclick = (function (){
@@ -38,12 +31,6 @@ window.onload = function(){
         const container = document.getElementById("more-activities").children[0];
         doMoreActivities(container);
     
-    });
-
-    //Adding onclick event to the custom button
-    document.getElementById("reward_pivot_searches").onclick = (function (){
-        //random string
-        window.open('https://www.bing.com/search?q=cwapchwjauhd1928745y6dwadaw231')
     });
 }
 

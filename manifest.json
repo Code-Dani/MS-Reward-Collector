@@ -1,6 +1,6 @@
 {
   "name": "Microsoft Rewards Collector",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "manifest_version": 3,
   "description": "An extension to automatically collect MS Reward points. This is a user-made extension and its NOT made by Microsoft",
   "icons": {
@@ -24,10 +24,6 @@
       "matches":["https://www.bing.com/*form=ML12*","https://www.bing.com/*FORM=ML12*",
         "https://www.bing.com/*form=ML15*","https://www.bing.com/*FORM=ML15*"],
       "js":["javascript/focusPage/quiz.js"]
-    },
-    {
-      "matches":["https://www.bing.com/*cwapchwjauhd1928745y6dwadaw231*"],
-      "js":["javascript/focusPage/doSearches.js"]
     }
   ]
 }
